@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aya's portfolio site</title>
+    <meta name="description" content="ポートフォリオサイト">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- Adobeフォント -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'urt0tyi',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div class="thanks-container">
+        <!-- ファーストビュー -->
+        <section class="works-fv">
+            <div class="works-main-wrap">
+                <img class="works-img" src="images/thanks-fv@2x.png" alt="ワークストップ画像">
+            </div>
+        </section>
+        <!-- PCナビゲーション -->
+        <aside id="sub-area">
+            <nav class="pc-navigation">
+                <ul>
+                    <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                    <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                    <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                    <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                    <li><a href="contact.html"><img src="images/contact-nav@2x.png" alt=""></a></li>
+                </ul>
+                <ul class="icon-box">
+                    <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"></a></li>
+                    <!-- <li><a href=""><img class="scroll" src="images/yajirushi@2x.png" alt="スクロール矢印"></a></li> -->
+                </ul>
+                <div class="scroll">
+                    <span class="text">Scroll</span>
+                </div>
+            </nav>
+        </aside>
+
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+            <div class="sp-btn">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+            </div>
+
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                    <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                    <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                    <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                    <li><a href="contact.html"><img class="contact-hamburger" src="images/contact-nav-white@2x.png"
+                                alt=""></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"></a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+
+        <section class="thanks-box">
+            <div class="thanks">
+                <img class="thank_you" src="images/thank_you@2x.png" alt="ありがとう">
+
+                <p>お問い合わせいただきありがとうございます。<br>
+                    3日以内にご連絡させていただきますので、<br>
+                    お待ちいただけますと幸いです。
+                </p>
+                <img class="pc-thanks-pic" src="images/pc_thanks_pic@2x.png" alt="サンキュー">
+                <img class="sp-thanks-pic" src="images/sp_thanks_pic@2x.png" alt="サンキュー">
+            </div>
+        </section>
+
+
+        <!-- ボタン -->
+        <!-- <div class="top-btn"> -->
+        <!-- <a href="index.html#top"><img src="images/top-btn@2x.png" alt="トップへボタン"></a> -->
+        <!-- <a href="" class="btn_top">top</a> -->
+        <!-- </div> -->
+
+        <div class="top-btn">
+            <a href="index.html" class="btn_top">top</a>
+        </div>
+
+
+        <!-- フッター -->
+        <section class="footer-wrap">
+            <h2><img src="images/sonosakini-footer.png" alt="サービス"></h2>
+            <ul>
+                <li><a href="index.html#top"><img class="footer-top" src="images/top@2x.png" alt=""></a></li>
+                <li><a href="index.html#concept"><img class="footer-concept" src="images/cncept@2x.png" alt=""></a></li>
+                <li><a href="index.html#service"><img class="footer-service" src="images/service@2x.png" alt=""></a>
+                </li>
+                <li><a href="works.html"><img class="footer-works" src="images/works@2x.png" alt=""></a></li>
+                <li><a href="about.html"><img class="footer-about" src="images/about@2x.png" alt=""></a></li>
+                <li><a href="contact.html"><img class="footer-concept" src="images/contact@2x.png" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script>
+        $(function () {
+            // スマホのハンバーガーメニュー  
+            $('.sp-btn').on('click', function () {
+                $('.sp-nav').fadeToggle();
+                $('.sp-btn').toggleClass('open');
+
+            });
+        });
+
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: false, distance: "40px", duration: 2000, delay: 200 });
+        ScrollReveal().reveal('.works-img', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.thanks', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.top-btn', { delay: 300, origin: "bottom" });
+
+
+
+    </script>
+</body>
+
+</html>

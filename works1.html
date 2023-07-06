@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aya's portfolio site</title>
+    <meta name="description" content="ポートフォリオサイト">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <!-- Adobeフォント -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'urt0tyi',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+
+<body>
+    <div class="works1-container">
+        <!-- ファーストビュー -->
+        <section class="works-fv">
+            <div class="works-main-wrap">
+                <img class="works-img" src="images/works1_fv@2x.png" alt="ワークストップ画像">
+            </div>
+        </section>
+        <!-- PCナビゲーション -->
+        <aside id="sub-area">
+            <nav class="pc-navigation">
+                <ul>
+                    <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                    <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                    <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                    <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                    <li><a href="contact.html"><img src="images/contact-nav@2x.png" alt=""></a></li>
+                </ul>
+                <ul class="icon-box">
+                    <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"></a></li>
+                    <!-- <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"></a></li> -->
+                </ul>
+                <div class="scroll">
+                    <span class="text">Scroll</span>
+                </div>
+            </nav>
+        </aside>
+
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+            <div class="sp-btn">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+            </div>
+
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                    <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                    <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                    <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                    <li><a href="contact.html"><img class="contact-hamburger" src="images/contact-nav-white@2x.png"
+                                alt=""></a>
+                    </li>
+                    <li><a href=""><img class="sns-hamburger" src="images/instagram-icon@2x.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+        <!-- 制作物の紹介 -->
+        <div class="works-text">
+            <div class="works-name">
+                <h3 class="works-title">
+                    ハンバーガーバナー広告
+                </h3>
+                <ul>
+                    <li>担当範囲<span>デザイン</span></li>
+                    <li>制作期間<span>1週間</span></li>
+                    <li>使用ツール<span>Illustrator / Photoshop</span></li>
+                </ul>
+            </div>
+            <div class="design-concept-box">
+                <h3 class="design-concept">デザインコンセプト</h3>
+                <p>新商品の告知のためのバナー。「高級ver」では、全体的に明朝体を使用し、色は落ち着いた濃いめの赤を使用し高級感を表現しました。<br>
+                    「POPver」は、文字に立体感をもたせ、ハンバーガーの画像を半分だけ使用し、残りの半分に文字をハンバーガーの形で配置し、目に留まるよう工夫しました。</p>
+            </div>
+        </div>
+
+
+        <!-- ワークス１のタブ -->
+        <div class="tabs">
+            <div class="works1-tab">
+                <div class="tab-box">
+                    <input id="rich-ver" type="radio" name="works1-tab_item" checked>
+                    <label class="works1-tab_item" for="rich-ver">高級ver</label>
+                    <input id="pop-ver" type="radio" name="works1-tab_item">
+                    <label class="works1-tab_item" for="pop-ver">POPver</label>
+
+                    <!-- Web designタブ -->
+                    <div class="tab_content" id="rich-ver_content">
+                        <div class="tab_content_description">
+                            <img class="rich-ver-img" src="images/hamburger-rich-ver@2x.png" alt="ハンバーガーバナー高級バージョン">
+                        </div>
+                    </div>
+                    <!-- Graphic designタブ -->
+                    <div class="tab_content" id="pop-ver_content">
+                        <div class="tab_content_description">
+                            <img class="pop-ver-img" src="images/hamburger-pop-ver@2x.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ボタン -->
+        <!-- <div class="btn-2set"> -->
+        <!-- <div class="view-all-btn"> -->
+        <!-- <a href="works.html"><img class="view-all-btn" src="images/view-all-btn@2x.png" alt="全て見るボタン"></a> -->
+        <!-- <a href="works.html" class="btn_viewall">view more</a> -->
+        <!-- </div> -->
+        <!-- <div class="to-top-btn"> -->
+        <!-- <a href="index.html"><img class="to-top-btn" src="images/top-btn@2x.png" alt="トップへボタン"></a> -->
+        <!-- <a href="index.html" class="btn_top">top</a> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <div class="btn-2set">
+            <a href="works.html"><img class="view-all-btn" src="images/view-all-btn@2x.png" alt="全て見るボタン"></a>
+            <a href="index.html"><img class="to-top-btn" src="images/top-btn@2x.png" alt="トップへボタン"></a>
+
+        </div>
+
+
+        <!-- フッター -->
+        <section class="footer-wrap">
+            <h2><img src="images/sonosakini-footer.png" alt="サービス"></h2>
+            <ul>
+                <li><a href="index.html#top"><img class="footer-top" src="images/top@2x.png" alt=""></a></li>
+                <li><a href="index.html#concept"><img class="footer-concept" src="images/cncept@2x.png" alt=""></a></li>
+                <li><a href="index.html#service"><img class="footer-service" src="images/service@2x.png" alt=""></a>
+                </li>
+                <li><a href="works.html"><img class="footer-works" src="images/works@2x.png" alt=""></a></li>
+                <li><a href="about.html"><img class="footer-about" src="images/about@2x.png" alt=""></a></li>
+                <li><a href="contact.html"><img class="footer-concept" src="images/contact@2x.png" alt=""></a>
+                </li>
+            </ul>
+        </section>
+
+    </div>
+
+    <script>
+        $(function () {
+            // スマホのハンバーガーメニュー  
+            $('.sp-btn').on('click', function () {
+                $('.sp-nav').fadeToggle();
+                $('.sp-btn').toggleClass('open');
+
+            });
+        });
+
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: false, distance: "40px", duration: 2000, delay: 200 });
+        ScrollReveal().reveal('.works-img', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.works-text', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.tabs', { delay: 300, origin: "bottom" });
+        ScrollReveal().reveal('.btn-2set', { delay: 300, origin: "bottom" });
+
+
+
+    </script>
+</body>
+
+</html>

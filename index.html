@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aya's portfolio site</title>
+    <meta name="description" content="ポートフォリオサイト">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Adobeフォント -->
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'urt0tyi',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/4-2-2.css">
+</head>
+
+<body>
+    <div class="top-amnimation" id="splash">
+        <div class="loader">
+            <span></span>
+            <span></span>
+            <span></span>
+            <h2>Loading...</h2>
+        </div>
+        <div class="next-content" id="next-content">
+            <div class="sonosakini-moji" id="sonosakini-moji">
+                <svg id="_レイヤー_1" data-name=" レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 553.92 171.77">
+                    <path
+                        d="m17.79,171.77c-6.39,0-11.35-1.67-16.59-5.6-.64-.48-1.06-1.19-1.17-1.98-.11-.79.09-1.59.57-2.22l1.87-2.5c.59-.78,1.49-1.2,2.4-1.2.58,0,1.17.17,1.68.52,4.75,3.23,7.53,4.27,11.43,4.27,4.62,0,9.29-2.03,9.29-6.58,0-2.85-.75-5.84-9.68-8.36-10.27-2.82-15.93-9.03-15.93-17.47,0-10.06,7.92-17.37,18.83-17.37,5.9,0,11.21,2.36,14.96,6.65,1.08,1.23.97,3.1-.24,4.2l-2.29,2.08c-.55.5-1.27.78-2.02.78-.08,0-.15,0-.23,0-.82-.06-1.58-.46-2.1-1.1-2.21-2.73-4.69-3.89-8.29-3.89-5.55,0-9.29,3.23-9.29,8.04,0,4.21,1.71,7.45,10.03,9.59,10.34,2.65,15.58,8.25,15.58,16.65,0,8.83-8.09,15.5-18.83,15.5Z" />
+                    <path
+                        d="m73.81,171.77c-16.1,0-27.78-11.95-27.78-28.41,0-9.16,3.05-16.89,8.83-22.35,5.26-4.98,12.51-7.72,20.41-7.72,7.37,0,13.85,2.67,18.66,7.45v-3.2c0-1.66,1.34-3,3-3h3.33c1.66,0,3,1.34,3,3v49.56c0,1.66-1.34,3-3,3h-3.33c-1.66,0-3-1.34-3-3v-3.21c-5.06,5.14-11.93,7.88-20.12,7.88Zm1.25-49.77c-11.66,0-19.49,8.33-19.49,20.74s8.2,20.32,19.49,20.32c9.87,0,18.87-8.7,18.87-18.24v-4.58c0-9.89-8.64-18.24-18.87-18.24Z" />
+                    <path
+                        d="m128.79,171.56c-.26,0-.52-.03-.77-.1l-3.12-.83c-.77-.21-1.43-.71-1.83-1.4-.4-.69-.5-1.51-.29-2.29,1.05-3.85,1.56-10,1.56-18.79v-30.61c0-1.66,1.34-3,3-3h3.33c1.66,0,3,1.34,3,3v21c2.5-5.51,5.2-10.34,7.91-14.02,5.5-7.65,11.3-11.22,18.25-11.22,10.02,0,17.58,8,17.58,18.62v35.19c0,1.66-1.34,3-3,3h-3.33c-1.66,0-3-1.34-3-3v-33.53c0-3.29-.88-10.95-9.08-10.95-6.06,0-15.72,8.12-27.32,46.8-.39,1.3-1.58,2.14-2.87,2.14Z" />
+                    <path
+                        d="m219.38,171.77c-14.24,0-28.61-9.04-28.61-29.24s14.37-29.24,28.61-29.24,28.61,9.04,28.61,29.24-14.37,29.24-28.61,29.24Zm0-49.77c-11.59,0-19.07,8.06-19.07,20.53s7.49,20.53,19.07,20.53,19.07-8.06,19.07-20.53-7.49-20.53-19.07-20.53Z" />
+                    <path
+                        d="m274.57,171.77c-6.39,0-11.35-1.67-16.59-5.6-1.33-.99-1.59-2.88-.6-4.2l1.87-2.5c.59-.78,1.49-1.2,2.4-1.2.58,0,1.17.17,1.68.52,4.76,3.23,7.53,4.27,11.43,4.27,4.62,0,9.29-2.03,9.29-6.58,0-2.85-.75-5.84-9.68-8.36-10.27-2.82-15.93-9.03-15.93-17.47,0-10.06,7.92-17.37,18.83-17.37,5.9,0,11.21,2.36,14.96,6.65,1.08,1.23.97,3.1-.24,4.2l-2.29,2.08c-.55.5-1.27.78-2.02.78-.08,0-.15,0-.23,0-.82-.06-1.58-.46-2.1-1.1-2.22-2.73-4.7-3.89-8.29-3.89-5.55,0-9.29,3.23-9.29,8.04,0,4.21,1.71,7.45,10.03,9.59,10.34,2.65,15.58,8.25,15.58,16.65,0,8.83-8.09,15.5-18.83,15.5Z" />
+                    <path
+                        d="m330.59,171.77c-16.1,0-27.78-11.95-27.78-28.41,0-9.16,3.05-16.89,8.83-22.35,5.26-4.98,12.51-7.72,20.41-7.72,7.37,0,13.85,2.67,18.66,7.45v-3.2c0-1.66,1.34-3,3-3h3.33c1.66,0,3,1.34,3,3v49.56c0,1.66-1.34,3-3,3h-3.33c-1.66,0-3-1.34-3-3v-3.21c-5.06,5.14-11.93,7.88-20.12,7.88Zm1.25-49.77c-11.66,0-19.49,8.33-19.49,20.74s8.2,20.32,19.49,20.32c9.87,0,18.87-8.7,18.87-18.24v-4.58c0-9.89-8.64-18.24-18.87-18.24Z" />
+                    <path
+                        d="m418.47,170.1c-.76,0-1.48-.29-2.04-.8l-23.16-21.43-2.83,2.63v16.6c0,1.66-1.34,3-3,3h-3.33c-1.66,0-3-1.34-3-3V3c0-1.66,1.34-3,3-3h3.33c1.66,0,3,1.34,3,3v135.79l25.37-23.46c.55-.51,1.28-.8,2.04-.8h4.79c1.24,0,2.36.77,2.8,1.93.45,1.16.13,2.47-.79,3.3l-24.41,21.95,25.26,23.17c.91.84,1.22,2.15.77,3.3-.45,1.15-1.56,1.91-2.8,1.91h-5Z" />
+                    <rect x="440.25" y="114.54" width="9.33" height="55.56" rx="3" ry="3" />
+                    <path
+                        d="m444.92,106.79c-3.32,0-5.92-2.6-5.92-5.92s2.6-5.92,5.92-5.92,5.92,2.6,5.92,5.92-2.6,5.92-5.92,5.92Z" />
+                    <path
+                        d="m475.12,171.56c-.26,0-.52-.03-.77-.1l-3.12-.83c-.77-.21-1.43-.71-1.83-1.4s-.5-1.52-.29-2.29c1.05-3.85,1.56-9.99,1.56-18.79v-30.61c0-1.66,1.34-3,3-3h3.33c1.66,0,3,1.34,3,3v21c2.5-5.51,5.2-10.33,7.91-14.02,5.5-7.65,11.3-11.22,18.25-11.22,10.02,0,17.58,8,17.58,18.62v35.19c0,1.66-1.34,3-3,3h-3.33c-1.66,0-3-1.34-3-3v-33.53c0-3.29-.88-10.95-9.08-10.95-6.06,0-15.72,8.12-27.32,46.8-.39,1.3-1.58,2.14-2.87,2.14Z" />
+                    <path
+                        d="m548.01,106.79c-3.32,0-5.92-2.6-5.92-5.92s2.6-5.92,5.92-5.92,5.92,2.6,5.92,5.92-2.6,5.92-5.92,5.92Z" />
+                    <rect x="543.34" y="114.54" width="9.33" height="55.56" rx="3" ry="3" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <!-- トップのスライド切り替えアニメーション -->
+    <!-- <div id="splash">
+    </div> -->
+    <div class="splashbg"></div><!---画面遷移用-->
+
+
+    <!-- メインページ -->
+    <div class="main-container" id="top">
+
+        <!-- ファーストビュー -->
+        <section class="fv">
+            <img class="fv-img" src="images/pc_mainpage_pic@2x.png" alt="トップ画像">
+            <img class="sp-fv-img" src="images/sp_mainpage_pic@2x.png" alt="トップ画像">
+            <h1 class="pc-site-name"><img src="images/pc_snosakini@2x.png" alt="ポートフォリオサイト"></h1>
+            <h1 class="sp-site-name"><img src="images/sp_sonosakini@2x.png" alt="ポートフォリオサイト"></h1>
+
+        </section>
+        <!-- ナビゲーション -->
+        <div class="nav">
+            <!-- PCナビゲーション -->
+            <aside id="sub-area">
+                <nav class="pc-navigation">
+                    <ul>
+                        <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                        <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                        <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                        <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                        <li><a href="contact.html"><img src="images/contact-nav@2x.png" alt=""></a></li>
+                    </ul>
+                    <ul class="icon-box">
+                        <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"><img class="sns-icon"
+                                    src="images/instagram-icon@2x.png" alt="インスタグラム"></a></li>
+                        <!-- <li><a href=""><img class="scroll" src="images/yajirushi@2x.png" alt="スクロール矢印"></a></li> -->
+                    </ul>
+                    <div class="scroll">
+                        <span class="text">Scroll</span>
+                    </div>
+                </nav>
+            </aside>
+        </div>
+
+
+
+        <!-- ハンバーガーメニュー -->
+        <div class="hamburger">
+            <div class="sp-btn">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+                <img src="images/sp_hamburger_line@2x.png" alt="">
+            </div>
+
+            <nav class="sp-nav">
+                <ul>
+                    <li><a href="index.html#concept"><img src="images/concept-nav@2x.png" alt=""></a></li>
+                    <li><a href="index.html#service"><img src="images/service-nav@2x.png" alt=""></a></li>
+                    <li><a href="works.html"><img src="images/works-nav@2x.png" alt=""></a></li>
+                    <li><a href="about.html"><img src="images/about-nav@2x.png" alt=""></a></li>
+                    <li><a href="contact.html"><img class="contact-hamburger" src="images/contact-nav-white@2x.png"
+                                alt=""></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/seah_design_2/" target="_blank"></a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+        <!-- コンセプト -->
+        <section class="concept" id="concept">
+
+            <!-- <img class="maru-sousyoku" src="images/maru-sousyoku-blue@2x.png" alt="装飾"> -->
+            <div class="concept-wrap">
+                <div class="sousyoku-pc sousyoku-sp">
+
+                </div>
+                <!-- <img class="sousyoku" src="images/sousyoku2@2x.png" alt="装飾"> -->
+                <div class="concept-left">
+
+                    <div class="concept-txt">
+                        <h2><img src="images/concept_content@2x.png" alt="コンセプト"></h2>
+                        <h3 class="concept-title">その先にいるあなたに想いが届きますように．．．</h3>
+                        <h3 class="sp-concept-title">その先にいるあなたに<br>
+                            想いが届きますように．．．</h3>
+                        <p>
+                            デザインは作って終わりではなく、見てくださる方にクライアント様の想いを伝えること、<br class="br-none">
+                            そして、デザインを通して、人々の心を動かす輝きを創り出すことが大切だと考えます。<br class="br-none">
+                            どこにたどり着くのか、どんな人が手に取ってくださるはわかりませんが、<br class="br-none">
+                            瓶の中に込めた想いを誰かに伝えられるメッセージボトルように、<br class="br-none">
+                            デザインを通して見てくださる方にクライアント様の想いを伝え、心を動かせる、<br class="br-none">
+                            そんなデザインを作っていきたいです。
+                        </p>
+
+                    </div>
+                    <img class="bin-img" src="images/pc_concept_pic@2x.png" alt="ビン">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- サービス -->
+        <section class="service" id="service">
+            <h2><img src="images/service_content@2x.png" alt="サービス"></h2>
+            <div class="service-wrap">
+                <div class="box">
+                    <p><img class="design" src="images/design@2x.png" alt="デザイン"></p>
+                    <img class="icon" src="images/design_icon@2x.png" alt="デザイン">
+                    <div class="box-text">
+                        <p class="text1">【WEBデザイン】<br>
+                            バナー、HP（ホームページ）、<br>
+                            LP（ランディングページ）
+                            etc...</p>
+                        <p class="text2">【グラフィックデザイン】<br>
+                            チラシ、名刺、パンフレットetc...<br>
+                            丁寧なヒアリングをこころがけ、クライアント様の想いをデザインで表現していきます。</p>
+                    </div>
+                    <img class="tool-icon2" src="images/ai-ps-icon@2x.png" alt="デザインツール">
+                </div>
+
+                <div class="box">
+                    <p><img class="cording" src="images/cording@2x.png" alt="コーディング"></p>
+                    <img class="icon" src="images/cording_icon@2x.png" alt="コーディング">
+                    <div class="box-text">
+                        <p class="text1">【HTML・CSS】<br>
+                            PC版とSP版のレスポンシブに対応した<br>コーディング</p>
+                        <p class="text2">【Javascript（jQuery）】<br>
+                            デザインに動きをつける</p>
+                    </div>
+                    <img class="tool-icon3" src="images/html-css-js-icon@2x.png" alt="コーディングツール">
+                </div>
+            </div>
+        </section>
+
+        <!-- ワークス -->
+        <section class="works" id="works">
+
+            <div class="works-wrap">
+                <div class="works-title">
+                    <h2><img src="images/works_content@2x.png" alt="サービス"></h2>
+                </div>
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <a href="works1.html"><img src="images/hamburger-bunner@2x.png" alt=""></a>
+                        <a href="works2.html"><img src="images/hair-salon-corpolatesite@2x.png" alt=""></a>
+                        <a href="works1.html"><img src="images/hamburger-bunner@2x.png" alt=""></a>
+                        <a href="works2.html"><img src="images/hair-salon-corpolatesite@2x.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="viewall-btn">
+                    <!-- <a href="works.html"><img src="images/view-all-btn@2x.png" alt=""></a> -->
+                    <a href="works.html" class="btn_viewall">view more</a>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- アバウト -->
+        <section class="about" id="about">
+            <h2><img src="images/about_content@2x.png" alt="サービス"></h2>
+            <div class="about-wrap">
+                <img class="me" src="images/me@2x.png" alt="私">
+                <div class="about-me">
+                    <img class="name" src="images/aya@2x.png" alt="aya">
+                    <p>長崎県の小さな島育ち。<br>
+                        美しい自然の中で培った感性を軸に、<br>
+                        人を大切にをモットーに、デザインで表現します。<br>
+                        クライアント様の想いをどう伝えるか、<br>
+                        その先にいるお客様のことも思い、描きながら、<br>
+                        メッセージの伝わるデザインをしっかり制作してまいります。<br>
+                    </p>
+                    <div class="viewmore-btn">
+                        <!-- <a href="about.html"><img src="images/view-more-btn@2x.png" alt=""></a> -->
+                        <a href="about.html" class="btn_viewmore">view more</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- コンタクト -->
+        <section class="contact" id="contact">
+            <div class="contact-wrap">
+                <h2><img src="images/contact_content@2x.png" alt="サービス"></h2>
+                <img class="contact-pic" src="images/pc_contact_pic_1@2x.png" alt="">
+                <p>制作のご依頼・ご相談など<br>
+                    お気軽にお問い合わせくださいませ。</p>
+                <div class="contact-btn">
+                    <!-- <a href="contact.html"><img src="images/contact-btn@2x.png" alt=""></a> -->
+                    <a href="contact.html" class="btn_contact">お問合せはこちら</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- フッター -->
+        <section class="footer-wrap">
+            <h2><img src="images/sonosakini-footer.png" alt="サービス"></h2>
+            <ul>
+                <li><a href="index.html#top"><img class="footer-top" src="images/top@2x.png" alt=""></a></li>
+                <li><a href="index.html#concept"><img class="footer-concept" src="images/cncept@2x.png" alt=""></a></li>
+                <li><a href="index.html#service"><img class="footer-service" src="images/service@2x.png" alt=""></a>
+                </li>
+                <li><a href="works.html"><img class="footer-works" src="images/works@2x.png" alt=""></a></li>
+                <li><a href="about.html"><img class="footer-about" src="images/about@2x.png" alt=""></a></li>
+                <li><a href="contact.html"><img class="footer-concept" src="images/contact@2x.png" alt=""></a>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+    <script>
+
+        // $('.slider').slick({
+        //     autoplay: true,//自動的に動き出すか。初期値はfalse。
+        //     infinite: true,//スライドをループさせるかどうか。初期値はtrue。
+        //     speed: 500,//スライドのスピード。初期値は300。
+        //     slidesToShow: 3,//スライドを画面に3枚見せる
+        //     slidesToScroll: 1,//1回のスクロールで1枚の写真を移動して見せる
+        //     prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
+        //     nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
+        //     centerMode: true,//要素を中央ぞろえにする
+        //     variableWidth: true,//幅の違う画像の高さを揃えて表示
+        //     dots: false,//下部ドットナビゲーションの表示
+        // });
+
+
+        // $(function () {
+        //     $(".slider").slick({
+        //         arrows: false,
+        //         autoplay: true,
+        //         adaptiveHeight: true,
+        //         centerMode: true,
+        //         centerPadding: "15%",
+        //         dots: true,
+        //     });
+        // });
+
+
+
+        $(function () {
+            // スマホのハンバーガーメニュー  
+            $('.sp-btn').on('click', function () {
+                $('.sp-nav').fadeToggle();
+                $('.sp-btn').toggleClass('open');
+
+            });
+
+
+            $('.slider').slick({
+                infinite: true, //スライドのループ有効化
+                dots: false, //ドットのナビゲーションを表示
+                centerMode: true, //要素を中央寄せ
+                centerPadding: '24%', //両サイドの見えている部分のサイズ
+                autoplay: true, //自動再生
+                autoplaySpeed: 2000,
+                prevArrow: '<div class="slick-prev"></div>',//矢印部分PreviewのHTMLを変更
+                nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
+                responsive: [
+                    {
+                        breakpoint: 767, // 399px以下のサイズに適用
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+            });
+
+            // トップの画面切り替えアニメーション
+            $(window).on('load', function () {
+                $(".sonosakini-moji").delay(1200).fadeOut('slow');//ロゴを1.2秒でフェードアウトする記述
+
+                //=====ここからローディングエリア（splashエリア）を1.5秒でフェードアウトした後に動かしたいJSをまとめる
+                $(".top-amnimation").delay(1500).fadeOut('slow', function () {//ローディングエリア（splashエリア）を1.5秒でフェードアウトする記述
+
+                    $('body').addClass('appear');//フェードアウト後bodyにappearクラス付与
+
+                });
+                //=====ここまでローディングエリア（splashエリア）を1.5秒でフェードアウトした後に動かしたいJSをまとめる
+
+                //=====ここから背景が伸びた後に動かしたいJSをまとめたい場合は
+                $('.splashbg').on('animationend', function () {
+                    //この中に動かしたいJSを記載
+                });
+                //=====ここまで背景が伸びた後に動かしたいJSをまとめる
+
+            });
+
+        });
+
+
+    </script>
+    <script>
+        // トップのローディングアニメーション
+        window.onload = function () {
+            // next-contentをみせる
+            setTimeout(() => {
+                // loaderを消す
+                const loader = document.querySelector(".loader");
+                loader.classList.add("loaded");
+                const content = document.querySelector(".next-content");
+                content.style.visibility = "visible";
+            }, 900);
+        }
+
+
+
+
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: false, distance: "40px", duration: 2000, delay: 200 });
+        ScrollReveal().reveal('.fv-img', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.pc-site-name', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.sp-fv-img', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.sp-site-name', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.concept-txt h2', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.concept-title', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.sp-concept-title', { delay: 400, origin: "left" });
+        ScrollReveal().reveal('.concept-txt p', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.bin-img', { delay: 600, origin: "right" });
+        ScrollReveal().reveal('.service h2', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.service-wrap', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.works-title h2', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.slider-wrap', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.viewall-btn', { delay: 500, origin: "bottom" });
+        ScrollReveal().reveal('.about h2', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.me', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.about-me', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.contact-wrap h2', { delay: 200, origin: "left" });
+        ScrollReveal().reveal('.contact-pic', { delay: 500, origin: "right" });
+        ScrollReveal().reveal('.contact-wrap p', { delay: 400, origin: "bottom" });
+        ScrollReveal().reveal('.contact-btn', { delay: 600, origin: "bottom" });
+
+
+    </script>
+
+    <!-- トップのスライドアニメーション -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+    <script src="https://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/4-2-4/js/4-2-4.js"></script>
+
+</body>
+
+</html>
